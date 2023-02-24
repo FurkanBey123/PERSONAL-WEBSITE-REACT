@@ -9,17 +9,19 @@ function Navbar() {
     return (
         <div className={styles.Wrapper}>
             <div className={styles.Navbar}>
-                <div>
-                    <img src={logo} alt="logo" />
+                <div className={styles.Content}>
+                    <div>
+                        <img src={logo} alt="logo" />
+                    </div>
+                    <h3>FULL-STACK DEVELOPER || WEB DESIGNER</h3>
+                    <div className={styles.NavbarRight}>
+                        <h5>ABOUT</h5>
+                        <h5>PROJECTS</h5>
+                        <h5>CONTACT</h5>
+                    </div>
                 </div>
-                <h3>FULL-STACK DEVELOPER || WEB DESIGNER</h3>
-                <div className={styles.NavbarRight}>
-                    <h5>ABOUT</h5>
-                    <h5>PROJECTS</h5>
-                    <h5>CONTACT</h5>
-                </div>
+                <progress max="100" value={value.toPrecision()}></progress>
             </div>
-            <progress max="100" value={value.toPrecision()}></progress>
         </div>
     )
 }

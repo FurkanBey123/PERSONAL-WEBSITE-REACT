@@ -2,13 +2,18 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(9px);
   width: 100%;
   z-index: 99;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(9px);
 }
 
-.Wrapper > progress {
+.Navbar {
+  background-color: rgba(123, 89, 200, 0.15);
+  backdrop-filter: blur(9px);
+}
+
+.Navbar > progress {
   position: absolute;
   left: 0;
   -webkit-appearance: none;
@@ -29,7 +34,7 @@ progress {
   color: white;
 }
 
-.Navbar {
+.Content {
   margin: 0.75% 3%;
   display: flex;
   flex-direction: row;
@@ -37,11 +42,11 @@ progress {
   justify-content: space-between;
 }
 
-.Navbar > * {
+.Content > * {
   min-width: 33.3%;
 }
 
-.Navbar > div > img {
+.Content > div > img {
   max-width: 40%;
 }
 
