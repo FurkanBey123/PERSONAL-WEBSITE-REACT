@@ -19,7 +19,7 @@ function Navbar() {
                     <h5>CONTACT</h5>
                 </div>
             </div>
-            <progress max="100" value={value.toLocaleString()}></progress>
+            <progress max="100" value={value.toPrecision()}></progress>
         </div>
     )
 }
