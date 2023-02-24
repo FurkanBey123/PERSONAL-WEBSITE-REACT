@@ -10,7 +10,6 @@
 
 .Wrapper > progress {
   position: absolute;
-  bottom: -1px;
   left: 0;
   -webkit-appearance: none;
   -moz-appearance: none;
