@@ -1,0 +1,10 @@
+.Main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.Main > picture > img {
+  width: 100%;
+}
